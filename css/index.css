@@ -1,0 +1,67 @@
+main {
+    font-family: Arial, sans-serif;
+}
+
+.google-logo {
+    display: block;
+    text-align: center;
+    height: 233px;
+    margin-top: 89px;
+}
+
+.imagem-logo {
+    padding-top: 100px;
+}
+
+.caixa-pesquisa {
+    display: block;
+    text-align: center;
+}
+
+#search-box {
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+}
+
+.botao-pesquisa {
+    font-size: 14px;    
+    background-color: #f2f2f2;
+    height: 36px;
+    padding: 0 16px;
+    margin: 11px 4px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font
+}
+
+.botao-sorte {
+    font-size: 14px;    
+    background-color: #f2f2f2;
+    height: 36px;
+    padding: 0 16px;
+    margin: 11px 4px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+}
+
+.information {
+    font-size: 13px;
+}
+
+.link-covid {
+    display: block;
+    text-align: center;
+    
+}
+
+.frase-idioma {
+    text-align: center;
+}
