@@ -13,6 +13,8 @@ main {
     padding-top: 100px;
 }
 
+/* search bar implementation */
+
 .full-search-box {
     width: 560px;
     height: 39px;
@@ -20,6 +22,11 @@ main {
     border-radius: 20px;
     display: flex;
     margin: auto;
+}
+
+.full-search-box:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
 }
 
 #lupa {
@@ -31,14 +38,16 @@ main {
 #search-box {
     display: block;
     margin: auto;
-    width: 40%;
+    width: 80%;
     height: 34px;
     border: 0px none;
     margin-left: 0px;
+    text-align: start;
+    padding-left: 10px;
     
 }
 
-input#search-box:focus {
+input#search-box:focus, textarea#search-box:focus, select#search-box:focus{
     outline: none;
 }
 
@@ -59,10 +68,11 @@ input#search-box:focus {
 }
 
 
-
 .botoes {
     display: flex;
     justify-content: center;
+    padding-top: 18px;
+    margin-bottom:15px;
 }
 
 .botao-pesquisa {
@@ -70,7 +80,7 @@ input#search-box:focus {
     background-color: #f2f2f2;
     height: 36px;
     padding: 0 16px;
-    margin: 11px 4px;
+    margin: 11px 5px;
     border: 1px solid #f2f2f2;
     border-radius: 4px;
     color:  #5F6368;
@@ -81,22 +91,31 @@ input#search-box:focus {
     background-color: #f2f2f2;
     height: 36px;
     padding: 0 16px;
-    margin: 11px 4px;
+    margin: 11px 5px;
     border: 1px solid #f2f2f2;
     border-radius: 4px;
     color: #5F6368;
+}
+
+.botao-sorte:hover, .botao-pesquisa:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
 }
 
 .information {
     font-size: 13px;
 }
 
-.link-covid {
+.information-link {
     display: block;
     text-align: center;
+    text-decoration:none;
     
 }
 
-.frase-idioma {
-    text-align: center;
+.information-link:hover {
+    text-decoration: underline;
 }
