@@ -1,5 +1,60 @@
-main {
+body {
     font-family: Arial, sans-serif;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 15px;
+    font-size: 13px;
+}
+
+#gmail {
+    text-decoration: none;
+    color:rgba(0,0,0,0.87);
+    padding: 0 10px;
+    
+}
+
+#imagens {
+    text-decoration: none;
+    color:rgba(0,0,0,0.87);
+    padding: 0 5px;
+}
+
+#imagens:hover, #gmail:hover{
+    text-decoration: underline;
+}
+
+#squares {
+    padding: 0 15px;
+    font-size: 17px;
+    color:rgba(97, 89, 89, 0.87);
+}
+
+#squares:hover {
+    color:black;
+}
+
+.login {
+    border: 1px solid #4285f4;
+    background-color:#4387fd;
+    color: white;
+    height: 28px;
+    width: auto;
+    font-weight: bold;
+    border: 1px solid #4285f4;
+    border-radius: 3px;
+    margin-right: 1%;
+    padding: 0 12px;
+}
+
+.login:hover {
+   box-shadow: 0 1px 0 rgba(0,0,0,.15);
 }
 
 .google-logo {
